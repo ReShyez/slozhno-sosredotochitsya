@@ -1,1 +1,1 @@
-https://github.com/ReShyez/posmotri_v_okno.git
+https://github.com/ReShyez/slozhno-sosredotochitsya.git
