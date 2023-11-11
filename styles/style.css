@@ -8,7 +8,7 @@
 	background-image: var(--bg-image);
   background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;  
+	background-position: center;
   background-attachment: fixed;
 	padding: 10px;
 	min-height: 100vh;
@@ -30,7 +30,7 @@
 	line-height: 138.889%;
 	margin-inline-end: 28px;
 	text-align: center;
-	/*проверить на совместимость с мобильной версией  */ 
+	/*проверить на совместимость с мобильной версией  */
 	line-height: 140%;
   margin-inline-end: 28px;
 }
@@ -79,7 +79,7 @@
 	border-bottom: 1px solid var(--accente-menu-color);
 	
 }
-.header__theme-menu-button_active{ 
+.header__theme-menu-button_active{
 	pointer-events: none;
 	border: 1px solid var(--header-accent-color);
 }
@@ -87,8 +87,8 @@
 	border: none;
 	outline: none;
 }
-.header__theme-menu-button_active:focus-visible {
-	border-bottom: 1px solid var(--accente-menu-color);	
+.header__theme-menu-button_active:focus-visible	{
+	border-bottom: 1px solid var(--accente-menu-color);
 }
 .title {
 	font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
@@ -117,17 +117,16 @@
 	width: 25px;
 	height: 25px;
 	border-right: 1px solid #FF0070;
-	border-top: 1px solid #FF0070;;
+	border-top: 1px solid #FF0070;
 	justify-self: end;
 }
-
 .decorated-zone::after {
 	content: '';
 	display: block;
 	width: 25px;
 	height: 25px;
 	border-left: 1px solid #FF0070;
-	border-bottom: 1px solid #FF0070;;
+	border-bottom: 1px solid #FF0070;
 	justify-self: start;
 	align-self: end;
 }
@@ -167,9 +166,6 @@
 .text-hadow:hover {
 	text-decoration: underline var(--text-color);
 
-}
-.text-hadow {
-	border: none;
 }
 .text-hadow:focus {
 	outline: none;
@@ -363,5 +359,4 @@
 .footer__title {
 	align-self: end;
 }
-
 }
