@@ -15,7 +15,7 @@
 }
 
 .header {
-	min-block-size: 100%;
+	min-height: 100vh;
 	position: relative;
 	display: grid;
 	justify-items: end;
@@ -227,7 +227,7 @@
 	object-position: center;
 }
 .footer {
-	min-block-size: 100%;
+	min-height: 100vh;
 	display: grid;
 	justify-items: center;
 	margin-block-start: 50px;
