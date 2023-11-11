@@ -9,4 +9,83 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color: #FFF1F7;
+  --bg-image: url(../images/cover-image-light.png);
+  --text-color: #353430;
+  --accent-color: #FF8DCB; 
+  --header-accent-color: #353430;
+  --title-color: #FFC2E6;
+  --accent-shadow-color: #FF8DCB;
+  --card-title-color: #353430;
+  --accente-menu-color: #353430;
+}
+
+
+/* Остальные стили */ 
+.theme_light .header__rec  {
+  display: none;
+}
+
+.theme_light .decorated-zone::before {
+
+	border-right: 1px solid var( --header-accent-color);
+	border-top: 1px solid var( --header-accent-color);
+}
+
+.theme_light .decorated-zone::after {
+
+	border-left: 1px solid var( --header-accent-color);
+	border-bottom: 1px solid var( --header-accent-color);
+
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --bg-image: url(../images/cover-image-light.png);
+    --text-color: #353430;
+    --accent-color: #FF8DCB; 
+    --header-accent-color: #353430;
+    --title-color: #FFC2E6;
+    --accent-shadow-color: #FF8DCB;
+    --card-title-color: #353430;
+    --accente-menu-color: #353430;
+    }
+
+    .header__rec  {
+      display: none;
+    }
+    .decorated-zone::before {
+
+      border-right: 1px solid var( --header-accent-color);
+      border-top: 1px solid var( --header-accent-color);
+    }
+    
+    .decorated-zone::after {
+    
+      border-left: 1px solid var( --header-accent-color);
+      border-bottom: 1px solid var( --header-accent-color);
+    }
+    .header__theme-menu-button:hover {
+        border: 1px solid rgba(50, 49, 45, 0.40);
+      }
+}
+}
+.theme_light .header__rec  {
+  display: none;
+}
+
+.theme_light .decorated-zone::before {
+
+  border-right: 1px solid var( --header-accent-color);
+  border-top: 1px solid var( --header-accent-color);
+}
+
+.theme_light .decorated-zone::after {
+
+  border-left: 1px solid var( --header-accent-color);
+  border-bottom: 1px solid var( --header-accent-color);
+
+}
+.theme_light .header__theme-menu-button:hover {
+	border: 1px solid rgba(50, 49, 45, 0.40);
 }
