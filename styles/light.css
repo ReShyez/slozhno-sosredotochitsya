@@ -69,19 +69,12 @@
         border: 1px solid rgba(50, 49, 45, 0.40);
       }
 }
-}
-.theme_light .header__rec  {
-  display: none;
-}
-
 .theme_light .decorated-zone::before {
 
   border-right: 1px solid var( --header-accent-color);
   border-top: 1px solid var( --header-accent-color);
 }
-
 .theme_light .decorated-zone::after {
-
   border-left: 1px solid var( --header-accent-color);
   border-bottom: 1px solid var( --header-accent-color);
 

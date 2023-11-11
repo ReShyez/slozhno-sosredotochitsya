@@ -15,6 +15,7 @@
 }
 
 .header {
+	min-block-size: 100vh;
 	position: relative;
 	display: grid;
 	justify-items: end;
@@ -27,8 +28,6 @@
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: 138.889%;
-	margin-inline-end: 28px;
 	text-align: center;
 	/*проверить на совместимость с мобильной версией  */
 	line-height: 140%;
@@ -79,7 +78,7 @@
 	border-bottom: 1px solid var(--accente-menu-color);
 	
 }
-.header__theme-menu-button_active{
+.header__theme-menu-button_active {
 	pointer-events: none;
 	border: 1px solid var(--header-accent-color);
 }
@@ -87,7 +86,7 @@
 	border: none;
 	outline: none;
 }
-.header__theme-menu-button_active:focus-visible	{
+.header__theme-menu-button_active:focus-visible {
 	border-bottom: 1px solid var(--accente-menu-color);
 }
 .title {
@@ -104,7 +103,7 @@
 .footer__title {
 	text-shadow: 2px 2px 0 var(--accent-shadow-color);
 }
-.header__description { 
+.header__description {
 	margin-block-start: 55px;
 	margin-block-end: 30px;
 }
@@ -206,7 +205,7 @@
 	object-position: center;
 }
 .footer {
-	min-block-size: 676px;
+	min-block-size: 100vh;
 	display: grid;
 	justify-items: center;
 	margin-block-start: 50px;
@@ -229,7 +228,7 @@
 	grid-column-start: 2;
 }
 .header__theme-menu-list {
-		 margin-block-start: 0px; 
+		 margin-block-start: 0px;
      margin-block-end: 0;
 }
 .title {
