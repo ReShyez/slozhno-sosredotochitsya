@@ -235,14 +235,14 @@
 	min-height: 100vh;
 	display: grid;
 	justify-items: center;
-	margin-block-start: 30px;
+	margin-block-start: 35px;
 	padding: 10px;
 }
 
 @media (768px <= width) {
 .header {
 	grid-template-columns: 1fr 1fr;
-	grid-template-rows: min-content repeat(3, 1fr) min-content;
+	grid-template-rows: min-content repeat(3, 1fr);
 	padding: 20px;
 }
 .header__theme-menu {
@@ -322,7 +322,7 @@
 	grid-column: 2 / 4;
 }
 .footer {
-	margin-block-start: 40px;
+	margin-block-start: 60px;
 	padding: 20px;
 }
 .decorated-zone::after {
@@ -345,14 +345,13 @@
 	.header__theme-menu-list {
 		flex-direction: row;
 		margin: 0;
-		gap: 15px;
+		gap: 20px;
 	}
 	.header__title {
-		margin-block-start: 0;
 		text-align: start;
     justify-self: start;
-    align-self: start;
-    grid-row-start: 3;
+    grid-row: 2 / 4;
+		margin-block-start: 97px;
 	}
 	.header__description {
 		margin-block-end: 0;
