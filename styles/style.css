@@ -238,8 +238,8 @@
 	margin-block-start: 30px;
 	padding: 10px;
 }
-@media (768px <= width) {
 
+@media (768px <= width) {
 .header {
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: min-content repeat(3, 1fr) min-content;
@@ -304,6 +304,7 @@
 	margin-block-start: 20px;
 	grid-column: 1 / span 2;
 	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
 }
 
 /*Расставляем картинки*/
@@ -354,7 +355,7 @@
 	}
 	.header__description {
 		margin-block-end: 0;
-		margin-block-start: 40px;
+		margin-block-start: 30px;
 		grid-row-start: 4;
 	}
 	.decorated-zone::before {
