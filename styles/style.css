@@ -194,7 +194,8 @@
 .reasons {
 	display: grid;
 	row-gap: 20px;
-	margin-block-start: 30px;
+	margin-block-start: 50px;
+	padding: 0 10px;
 }
 
 .card {
@@ -353,7 +354,7 @@
 	}
 	.header__description {
 		margin-block-end: 0;
-		margin-block-start: 0;
+		margin-block-start: 40px;
 		grid-row-start: 4;
 	}
 	.decorated-zone::before {
@@ -375,7 +376,9 @@
 .concentrate {
 	column-gap: 10px;
 }
-
+.footer {
+	margin-block-start: 60px;
+}
 .footer__title {
 	align-self: end;
 }
