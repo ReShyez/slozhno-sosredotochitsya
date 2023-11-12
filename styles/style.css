@@ -345,6 +345,7 @@
 	.header__theme-menu-list {
 		flex-direction: row;
 		margin: 0;
+		gap: 15px;
 	}
 	.header__title {
 		margin-block-start: 0;
@@ -355,7 +356,7 @@
 	}
 	.header__description {
 		margin-block-end: 0;
-		margin-block-start: 20px;
+		margin-block-start: 25px;
 		grid-row-start: 4;
 	}
 	.decorated-zone::before {
