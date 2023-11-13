@@ -70,7 +70,7 @@
 }
 
 .header__theme-menu-button:hover {
-	border: 1px solid rgba(255, 0, 112, 0.40);
+	outline: 1px solid rgba(255, 0, 112, 0.40);
 }
 
 .header__theme-menu-button:focus {
@@ -192,7 +192,7 @@
 }
 .text-hadow:focus-visible {
 	outline: 1px solid var(--text-color);
-	padding: 1px;
+	outline-offset: 1px;
 }
 .reasons {
 	margin-block-start: 40px;
