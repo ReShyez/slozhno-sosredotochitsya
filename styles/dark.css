@@ -24,7 +24,7 @@
 .theme_dark .header__rec {
 	display: block;
 }
-@media (prefers-color-scheme: dark) { 
+@media (prefers-color-scheme: dark) {
 	:root {
 		--bg-color: #000028;
 		--bg-image: url(../images/cover-image-dark.png);
