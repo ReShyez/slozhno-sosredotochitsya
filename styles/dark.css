@@ -15,9 +15,31 @@
 	--main-font: 'IBM Plex mono';
 	--accent-color: #ff0070;
 	--header-accent-color: #FF0070;
+	--title-color: #DB00FF;
+	--accent-shadow-color: #FF0070;
+	--card-title-color: #000028;
 	--accente-menu-color: #FF0070;
 }
 
 .theme_dark .header__rec {
 	display: block;
 }
+@media (prefers-color-scheme: dark) { 
+	:root {
+		--bg-color: #000028;
+		--bg-image: url(../images/cover-image-dark.png);
+		--text-color: #f1b2ce;
+		--main-font: 'IBM Plex mono';
+		--accent-color: #ff0070;
+		--header-accent-color: #FF0070;
+		--title-color: #DB00FF;
+		--accent-shadow-color: #FF0070;
+		--card-title-color: #000028;
+		--accente-menu-color: #FF0070;
+	}
+	.header__rec {
+		display: block;
+	}
+}
+
+/* Вопрос - проблема с цветами для тёмной темы, которую вы подсвечивали зключалась в том, что были указаны не все переменные в данном файле + отсутсвовало медиаправило? Сейчас дописал переменные, переключил тему устройства на светлую - и вроде все как в макете*/  

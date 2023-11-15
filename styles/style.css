@@ -316,8 +316,7 @@
 		margin-block-start: 60px;
 		padding: 20px;
 	}
-	.decorated-zone::after {
-		grid-column: 1 / 1;
+	.header.decorated-zone::after {
 		margin-inline-start: 20px;
 	}
 	.footer__title {
